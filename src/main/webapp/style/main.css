@@ -1,0 +1,55 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+br {
+    clear: both;
+}
+
+#quantity {
+    width: 2em;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+/* CSS for home button */
+.home-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.12s linear;
+    text-decoration: unset;
+}
+
+.home-button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
