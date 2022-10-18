@@ -10,6 +10,6 @@
     <h1>Checkout isn't finished yet</h1>
     <p>Click on the browser's Back button to continue.</p>
     <%--  Home button  --%>
-    <a href="https://wepr-g6-site.herokuapp.com/" class="home-button">Về trang chủ</a>
+    <a href="https://wepr-g6-site.herokuapp.com/assignments.jsp" class="home-button">Về trang chủ</a>
 </body>
 </html>
